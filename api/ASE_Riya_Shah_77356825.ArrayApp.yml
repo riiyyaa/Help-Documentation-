@@ -1,0 +1,1756 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Riya_Shah_77356825.ArrayApp
+  commentId: T:ASE_Riya_Shah_77356825.ArrayApp
+  id: ArrayApp
+  parent: ASE_Riya_Shah_77356825
+  children:
+  - ASE_Riya_Shah_77356825.ArrayApp.#ctor
+  - ASE_Riya_Shah_77356825.ArrayApp.ArrayRestrictions
+  - ASE_Riya_Shah_77356825.ArrayApp.CheckParameters(System.String[])
+  - ASE_Riya_Shah_77356825.ArrayApp.Columns
+  - ASE_Riya_Shah_77356825.ArrayApp.Compile
+  - ASE_Riya_Shah_77356825.ArrayApp.Execute
+  - ASE_Riya_Shah_77356825.ArrayApp.GetIntArray(System.Int32,System.Int32)
+  - ASE_Riya_Shah_77356825.ArrayApp.GetRealArray(System.Int32,System.Int32)
+  - ASE_Riya_Shah_77356825.ArrayApp.IntValue
+  - ASE_Riya_Shah_77356825.ArrayApp.PEEK
+  - ASE_Riya_Shah_77356825.ArrayApp.POKE
+  - ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersCompile(System.Boolean)
+  - ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersExecute(System.Boolean)
+  - ASE_Riya_Shah_77356825.ArrayApp.RealValue
+  - ASE_Riya_Shah_77356825.ArrayApp.ReduceRestrictionCounter
+  - ASE_Riya_Shah_77356825.ArrayApp.Rows
+  - ASE_Riya_Shah_77356825.ArrayApp.SetIntArray(System.Int32,System.Int32,System.Int32)
+  - ASE_Riya_Shah_77356825.ArrayApp.SetRealArray(System.Double,System.Int32,System.Int32)
+  - ASE_Riya_Shah_77356825.ArrayApp.columnCurrent
+  - ASE_Riya_Shah_77356825.ArrayApp.columnExpression
+  - ASE_Riya_Shah_77356825.ArrayApp.columnsCount
+  - ASE_Riya_Shah_77356825.ArrayApp.intArray
+  - ASE_Riya_Shah_77356825.ArrayApp.peekValue
+  - ASE_Riya_Shah_77356825.ArrayApp.pokeValue
+  - ASE_Riya_Shah_77356825.ArrayApp.realArray
+  - ASE_Riya_Shah_77356825.ArrayApp.rowCurrent
+  - ASE_Riya_Shah_77356825.ArrayApp.rowExpression
+  - ASE_Riya_Shah_77356825.ArrayApp.rowsCount
+  - ASE_Riya_Shah_77356825.ArrayApp.type
+  langs:
+  - csharp
+  - vb
+  name: ArrayApp
+  nameWithType: ArrayApp
+  fullName: ASE_Riya_Shah_77356825.ArrayApp
+  type: Class
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: ArrayApp
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 12
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Represents an application for working with arrays, supporting both integer and real number arrays.
+  example: []
+  syntax:
+    content: 'public class ArrayApp : Evaluation, ICommand'
+    content.vb: Public Class ArrayApp Inherits Evaluation Implements ICommand
+  inheritance:
+  - System.Object
+  - BOOSE.Command
+  - BOOSE.Evaluation
+  derivedClasses:
+  - ASE_Riya_Shah_77356825.PeekApp
+  - ASE_Riya_Shah_77356825.PokeApp
+  implements:
+  - BOOSE.ICommand
+  inheritedMembers:
+  - BOOSE.Evaluation.expression
+  - BOOSE.Evaluation.evaluatedExpression
+  - BOOSE.Evaluation.varName
+  - BOOSE.Evaluation.value
+  - BOOSE.Evaluation.ProcessExpression(System.String)
+  - BOOSE.Evaluation.Expression
+  - BOOSE.Evaluation.VarName
+  - BOOSE.Evaluation.Value
+  - BOOSE.Evaluation.Local
+  - BOOSE.Command.program
+  - BOOSE.Command.parameterList
+  - BOOSE.Command.parameters
+  - BOOSE.Command.paramsint
+  - BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  - BOOSE.Command.ProcessParameters(System.String)
+  - BOOSE.Command.ToString
+  - BOOSE.Command.Program
+  - BOOSE.Command.Name
+  - BOOSE.Command.ParameterList
+  - BOOSE.Command.Parameters
+  - BOOSE.Command.Paramsint
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: ASE_Riya_Shah_77356825.ArrayApp.PEEK
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.PEEK
+  id: PEEK
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: PEEK
+  nameWithType: ArrayApp.PEEK
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.PEEK
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: PEEK
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 17
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Constant value indicating a PEEK operation.
+  example: []
+  syntax:
+    content: protected const bool PEEK = false
+    return:
+      type: System.Boolean
+    content.vb: Protected Const PEEK As Boolean = False
+- uid: ASE_Riya_Shah_77356825.ArrayApp.POKE
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.POKE
+  id: POKE
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: POKE
+  nameWithType: ArrayApp.POKE
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.POKE
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: POKE
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 22
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Constant value indicating a POKE operation.
+  example: []
+  syntax:
+    content: public const bool POKE = true
+    return:
+      type: System.Boolean
+    content.vb: Public Const POKE As Boolean = True
+- uid: ASE_Riya_Shah_77356825.ArrayApp.type
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.type
+  id: type
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: ArrayApp.type
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.type
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: type
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 27
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: The type of array (e.g., "int" or "real").
+  example: []
+  syntax:
+    content: protected string type
+    return:
+      type: System.String
+    content.vb: Protected type As String
+- uid: ASE_Riya_Shah_77356825.ArrayApp.IntValue
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.IntValue
+  id: IntValue
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: IntValue
+  nameWithType: ArrayApp.IntValue
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.IntValue
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: IntValue
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 29
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected int IntValue
+    return:
+      type: System.Int32
+    content.vb: Protected IntValue As Integer
+- uid: ASE_Riya_Shah_77356825.ArrayApp.RealValue
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.RealValue
+  id: RealValue
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: RealValue
+  nameWithType: ArrayApp.RealValue
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.RealValue
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: RealValue
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 30
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected double RealValue
+    return:
+      type: System.Double
+    content.vb: Protected RealValue As Double
+- uid: ASE_Riya_Shah_77356825.ArrayApp.rowsCount
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.rowsCount
+  id: rowsCount
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: rowsCount
+  nameWithType: ArrayApp.rowsCount
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.rowsCount
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: rowsCount
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 32
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected int rowsCount
+    return:
+      type: System.Int32
+    content.vb: Protected rowsCount As Integer
+- uid: ASE_Riya_Shah_77356825.ArrayApp.columnsCount
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.columnsCount
+  id: columnsCount
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: columnsCount
+  nameWithType: ArrayApp.columnsCount
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.columnsCount
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: columnsCount
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 33
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected int columnsCount
+    return:
+      type: System.Int32
+    content.vb: Protected columnsCount As Integer
+- uid: ASE_Riya_Shah_77356825.ArrayApp.intArray
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.intArray
+  id: intArray
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: intArray
+  nameWithType: ArrayApp.intArray
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.intArray
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: intArray
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 34
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected int[,] intArray
+    return:
+      type: System.Int32[,]
+    content.vb: Protected intArray As Integer(,)
+- uid: ASE_Riya_Shah_77356825.ArrayApp.realArray
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.realArray
+  id: realArray
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: realArray
+  nameWithType: ArrayApp.realArray
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.realArray
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: realArray
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 35
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected double[,] realArray
+    return:
+      type: System.Double[,]
+    content.vb: Protected realArray As Double(,)
+- uid: ASE_Riya_Shah_77356825.ArrayApp.pokeValue
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.pokeValue
+  id: pokeValue
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: pokeValue
+  nameWithType: ArrayApp.pokeValue
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.pokeValue
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: pokeValue
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 37
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected string pokeValue
+    return:
+      type: System.String
+    content.vb: Protected pokeValue As String
+- uid: ASE_Riya_Shah_77356825.ArrayApp.peekValue
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.peekValue
+  id: peekValue
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: peekValue
+  nameWithType: ArrayApp.peekValue
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.peekValue
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: peekValue
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 38
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected string peekValue
+    return:
+      type: System.String
+    content.vb: Protected peekValue As String
+- uid: ASE_Riya_Shah_77356825.ArrayApp.rowExpression
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.rowExpression
+  id: rowExpression
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: rowExpression
+  nameWithType: ArrayApp.rowExpression
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.rowExpression
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: rowExpression
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 39
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected string rowExpression
+    return:
+      type: System.String
+    content.vb: Protected rowExpression As String
+- uid: ASE_Riya_Shah_77356825.ArrayApp.columnExpression
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.columnExpression
+  id: columnExpression
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: columnExpression
+  nameWithType: ArrayApp.columnExpression
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.columnExpression
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: columnExpression
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 40
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected string columnExpression
+    return:
+      type: System.String
+    content.vb: Protected columnExpression As String
+- uid: ASE_Riya_Shah_77356825.ArrayApp.rowCurrent
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.rowCurrent
+  id: rowCurrent
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: rowCurrent
+  nameWithType: ArrayApp.rowCurrent
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.rowCurrent
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: rowCurrent
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 41
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected int rowCurrent
+    return:
+      type: System.Int32
+    content.vb: Protected rowCurrent As Integer
+- uid: ASE_Riya_Shah_77356825.ArrayApp.columnCurrent
+  commentId: F:ASE_Riya_Shah_77356825.ArrayApp.columnCurrent
+  id: columnCurrent
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: columnCurrent
+  nameWithType: ArrayApp.columnCurrent
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.columnCurrent
+  type: Field
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: columnCurrent
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 42
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  syntax:
+    content: protected int columnCurrent
+    return:
+      type: System.Int32
+    content.vb: Protected columnCurrent As Integer
+- uid: ASE_Riya_Shah_77356825.ArrayApp.Rows
+  commentId: P:ASE_Riya_Shah_77356825.ArrayApp.Rows
+  id: Rows
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: ArrayApp.Rows
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.Rows
+  type: Property
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: Rows
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 49
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Gets the number of rows in the array.
+  example: []
+  syntax:
+    content: protected int Rows { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected ReadOnly Property Rows As Integer
+  overload: ASE_Riya_Shah_77356825.ArrayApp.Rows*
+- uid: ASE_Riya_Shah_77356825.ArrayApp.Columns
+  commentId: P:ASE_Riya_Shah_77356825.ArrayApp.Columns
+  id: Columns
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: Columns
+  nameWithType: ArrayApp.Columns
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.Columns
+  type: Property
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: Columns
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 54
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Gets the number of columns in the array.
+  example: []
+  syntax:
+    content: protected int Columns { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected ReadOnly Property Columns As Integer
+  overload: ASE_Riya_Shah_77356825.ArrayApp.Columns*
+- uid: ASE_Riya_Shah_77356825.ArrayApp.#ctor
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.#ctor
+  id: '#ctor'
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: ArrayApp()
+  nameWithType: ArrayApp.ArrayApp()
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ArrayApp()
+  type: Constructor
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: .ctor
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 59
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Initializes a new instance of the <xref href="ASE_Riya_Shah_77356825.ArrayApp" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public ArrayApp()
+    content.vb: Public Sub New()
+  overload: ASE_Riya_Shah_77356825.ArrayApp.#ctor*
+  nameWithType.vb: ArrayApp.New()
+  fullName.vb: ASE_Riya_Shah_77356825.ArrayApp.New()
+  name.vb: New()
+- uid: ASE_Riya_Shah_77356825.ArrayApp.ArrayRestrictions
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.ArrayRestrictions
+  id: ArrayRestrictions
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: ArrayRestrictions()
+  nameWithType: ArrayApp.ArrayRestrictions()
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ArrayRestrictions()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: ArrayRestrictions
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 66
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Applies restrictions to the array operations.
+  example: []
+  syntax:
+    content: public void ArrayRestrictions()
+    content.vb: Public Sub ArrayRestrictions()
+  overload: ASE_Riya_Shah_77356825.ArrayApp.ArrayRestrictions*
+- uid: ASE_Riya_Shah_77356825.ArrayApp.ReduceRestrictionCounter
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.ReduceRestrictionCounter
+  id: ReduceRestrictionCounter
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: ReduceRestrictionCounter()
+  nameWithType: ArrayApp.ReduceRestrictionCounter()
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ReduceRestrictionCounter()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: ReduceRestrictionCounter
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 73
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Reduces the counter for array operation restrictions.
+  example: []
+  syntax:
+    content: protected void ReduceRestrictionCounter()
+    content.vb: Protected Sub ReduceRestrictionCounter()
+  overload: ASE_Riya_Shah_77356825.ArrayApp.ReduceRestrictionCounter*
+- uid: ASE_Riya_Shah_77356825.ArrayApp.Compile
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.Compile
+  id: Compile
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: Compile()
+  nameWithType: ArrayApp.Compile()
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.Compile()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: Compile
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 80
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Compiles the array definition and validates its parameters.
+  example: []
+  syntax:
+    content: public override void Compile()
+    content.vb: Public Overrides Sub Compile()
+  overridden: BOOSE.Evaluation.Compile
+  overload: ASE_Riya_Shah_77356825.ArrayApp.Compile*
+- uid: ASE_Riya_Shah_77356825.ArrayApp.CheckParameters(System.String[])
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.CheckParameters(System.String[])
+  id: CheckParameters(System.String[])
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters(string[])
+  nameWithType: ArrayApp.CheckParameters(string[])
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.CheckParameters(string[])
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: CheckParameters
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 111
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Checks the parameters passed to the array for validity.
+  example: []
+  syntax:
+    content: public override void CheckParameters(string[] parameterList)
+    parameters:
+    - id: parameterList
+      type: System.String[]
+      description: List of parameters to validate.
+    content.vb: Public Overrides Sub CheckParameters(parameterList As String())
+  overridden: BOOSE.Evaluation.CheckParameters(System.String[])
+  overload: ASE_Riya_Shah_77356825.ArrayApp.CheckParameters*
+  nameWithType.vb: ArrayApp.CheckParameters(String())
+  fullName.vb: ASE_Riya_Shah_77356825.ArrayApp.CheckParameters(String())
+  name.vb: CheckParameters(String())
+- uid: ASE_Riya_Shah_77356825.ArrayApp.Execute
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.Execute
+  id: Execute
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: ArrayApp.Execute()
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.Execute()
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: Execute
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 125
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Executes the array initialization.
+  example: []
+  syntax:
+    content: public override void Execute()
+    content.vb: Public Overrides Sub Execute()
+  overridden: BOOSE.Evaluation.Execute
+  overload: ASE_Riya_Shah_77356825.ArrayApp.Execute*
+- uid: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersCompile(System.Boolean)
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersCompile(System.Boolean)
+  id: ProcessArrayParametersCompile(System.Boolean)
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: ProcessArrayParametersCompile(bool)
+  nameWithType: ArrayApp.ProcessArrayParametersCompile(bool)
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersCompile(bool)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: ProcessArrayParametersCompile
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 147
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Processes the parameters for a compile-time array operation.
+  example: []
+  syntax:
+    content: protected virtual void ProcessArrayParametersCompile(bool isPokeOperation)
+    parameters:
+    - id: isPokeOperation
+      type: System.Boolean
+      description: Indicates if the operation is a POKE operation.
+    content.vb: Protected Overridable Sub ProcessArrayParametersCompile(isPokeOperation As Boolean)
+  overload: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersCompile*
+  nameWithType.vb: ArrayApp.ProcessArrayParametersCompile(Boolean)
+  fullName.vb: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersCompile(Boolean)
+  name.vb: ProcessArrayParametersCompile(Boolean)
+- uid: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersExecute(System.Boolean)
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersExecute(System.Boolean)
+  id: ProcessArrayParametersExecute(System.Boolean)
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: ProcessArrayParametersExecute(bool)
+  nameWithType: ArrayApp.ProcessArrayParametersExecute(bool)
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersExecute(bool)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: ProcessArrayParametersExecute
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 156
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Processes the parameters for a run-time array operation.
+  example: []
+  syntax:
+    content: protected virtual void ProcessArrayParametersExecute(bool isPokeOperation)
+    parameters:
+    - id: isPokeOperation
+      type: System.Boolean
+      description: Indicates if the operation is a POKE operation.
+    content.vb: Protected Overridable Sub ProcessArrayParametersExecute(isPokeOperation As Boolean)
+  overload: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersExecute*
+  nameWithType.vb: ArrayApp.ProcessArrayParametersExecute(Boolean)
+  fullName.vb: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersExecute(Boolean)
+  name.vb: ProcessArrayParametersExecute(Boolean)
+- uid: ASE_Riya_Shah_77356825.ArrayApp.SetIntArray(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.SetIntArray(System.Int32,System.Int32,System.Int32)
+  id: SetIntArray(System.Int32,System.Int32,System.Int32)
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: SetIntArray(int, int, int)
+  nameWithType: ArrayApp.SetIntArray(int, int, int)
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.SetIntArray(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: SetIntArray
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 167
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Sets a value in the integer array at the specified row and column.
+  example: []
+  syntax:
+    content: public virtual void SetIntArray(int value, int row, int col)
+    parameters:
+    - id: value
+      type: System.Int32
+      description: The value to set.
+    - id: row
+      type: System.Int32
+      description: The row index.
+    - id: col
+      type: System.Int32
+      description: The column index.
+    content.vb: Public Overridable Sub SetIntArray(value As Integer, row As Integer, col As Integer)
+  overload: ASE_Riya_Shah_77356825.ArrayApp.SetIntArray*
+  nameWithType.vb: ArrayApp.SetIntArray(Integer, Integer, Integer)
+  fullName.vb: ASE_Riya_Shah_77356825.ArrayApp.SetIntArray(Integer, Integer, Integer)
+  name.vb: SetIntArray(Integer, Integer, Integer)
+- uid: ASE_Riya_Shah_77356825.ArrayApp.SetRealArray(System.Double,System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.SetRealArray(System.Double,System.Int32,System.Int32)
+  id: SetRealArray(System.Double,System.Int32,System.Int32)
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: SetRealArray(double, int, int)
+  nameWithType: ArrayApp.SetRealArray(double, int, int)
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.SetRealArray(double, int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: SetRealArray
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 179
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Sets a value in the real number array at the specified row and column.
+  example: []
+  syntax:
+    content: public virtual void SetRealArray(double value, int row, int col)
+    parameters:
+    - id: value
+      type: System.Double
+      description: The value to set.
+    - id: row
+      type: System.Int32
+      description: The row index.
+    - id: col
+      type: System.Int32
+      description: The column index.
+    content.vb: Public Overridable Sub SetRealArray(value As Double, row As Integer, col As Integer)
+  overload: ASE_Riya_Shah_77356825.ArrayApp.SetRealArray*
+  nameWithType.vb: ArrayApp.SetRealArray(Double, Integer, Integer)
+  fullName.vb: ASE_Riya_Shah_77356825.ArrayApp.SetRealArray(Double, Integer, Integer)
+  name.vb: SetRealArray(Double, Integer, Integer)
+- uid: ASE_Riya_Shah_77356825.ArrayApp.GetIntArray(System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.GetIntArray(System.Int32,System.Int32)
+  id: GetIntArray(System.Int32,System.Int32)
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: GetIntArray(int, int)
+  nameWithType: ArrayApp.GetIntArray(int, int)
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.GetIntArray(int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: GetIntArray
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 191
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Gets a value from the integer array at the specified row and column.
+  example: []
+  syntax:
+    content: public virtual int GetIntArray(int row, int col)
+    parameters:
+    - id: row
+      type: System.Int32
+      description: The row index.
+    - id: col
+      type: System.Int32
+      description: The column index.
+    return:
+      type: System.Int32
+      description: The value at the specified row and column.
+    content.vb: Public Overridable Function GetIntArray(row As Integer, col As Integer) As Integer
+  overload: ASE_Riya_Shah_77356825.ArrayApp.GetIntArray*
+  nameWithType.vb: ArrayApp.GetIntArray(Integer, Integer)
+  fullName.vb: ASE_Riya_Shah_77356825.ArrayApp.GetIntArray(Integer, Integer)
+  name.vb: GetIntArray(Integer, Integer)
+- uid: ASE_Riya_Shah_77356825.ArrayApp.GetRealArray(System.Int32,System.Int32)
+  commentId: M:ASE_Riya_Shah_77356825.ArrayApp.GetRealArray(System.Int32,System.Int32)
+  id: GetRealArray(System.Int32,System.Int32)
+  parent: ASE_Riya_Shah_77356825.ArrayApp
+  langs:
+  - csharp
+  - vb
+  name: GetRealArray(int, int)
+  nameWithType: ArrayApp.GetRealArray(int, int)
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.GetRealArray(int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE_Riya_Shahhh_77356825/ASE_Riya_Shah_77356825/ASE_Riya_Shah_77356825/ArrayApp.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-riiyyaa.git
+    id: GetRealArray
+    path: ASE_Riya_Shah_77356825/ArrayApp.cs
+    startLine: 203
+  assemblies:
+  - ASE_Riya_Shah_77356825
+  namespace: ASE_Riya_Shah_77356825
+  summary: Gets a value from the real number array at the specified row and column.
+  example: []
+  syntax:
+    content: public virtual double GetRealArray(int row, int col)
+    parameters:
+    - id: row
+      type: System.Int32
+      description: The row index.
+    - id: col
+      type: System.Int32
+      description: The column index.
+    return:
+      type: System.Double
+      description: The value at the specified row and column.
+    content.vb: Public Overridable Function GetRealArray(row As Integer, col As Integer) As Double
+  overload: ASE_Riya_Shah_77356825.ArrayApp.GetRealArray*
+  nameWithType.vb: ArrayApp.GetRealArray(Integer, Integer)
+  fullName.vb: ASE_Riya_Shah_77356825.ArrayApp.GetRealArray(Integer, Integer)
+  name.vb: GetRealArray(Integer, Integer)
+references:
+- uid: ASE_Riya_Shah_77356825
+  commentId: N:ASE_Riya_Shah_77356825
+  href: ASE_Riya_Shah_77356825.html
+  name: ASE_Riya_Shah_77356825
+  nameWithType: ASE_Riya_Shah_77356825
+  fullName: ASE_Riya_Shah_77356825
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: BOOSE.Command
+  commentId: T:BOOSE.Command
+  parent: BOOSE
+  isExternal: true
+  name: Command
+  nameWithType: Command
+  fullName: BOOSE.Command
+- uid: BOOSE.Evaluation
+  commentId: T:BOOSE.Evaluation
+  parent: BOOSE
+  isExternal: true
+  name: Evaluation
+  nameWithType: Evaluation
+  fullName: BOOSE.Evaluation
+- uid: BOOSE.ICommand
+  commentId: T:BOOSE.ICommand
+  parent: BOOSE
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: BOOSE.ICommand
+- uid: BOOSE.Evaluation.expression
+  commentId: F:BOOSE.Evaluation.expression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: expression
+  nameWithType: Evaluation.expression
+  fullName: BOOSE.Evaluation.expression
+- uid: BOOSE.Evaluation.evaluatedExpression
+  commentId: F:BOOSE.Evaluation.evaluatedExpression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: evaluatedExpression
+  nameWithType: Evaluation.evaluatedExpression
+  fullName: BOOSE.Evaluation.evaluatedExpression
+- uid: BOOSE.Evaluation.varName
+  commentId: F:BOOSE.Evaluation.varName
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: varName
+  nameWithType: Evaluation.varName
+  fullName: BOOSE.Evaluation.varName
+- uid: BOOSE.Evaluation.value
+  commentId: F:BOOSE.Evaluation.value
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: value
+  nameWithType: Evaluation.value
+  fullName: BOOSE.Evaluation.value
+- uid: BOOSE.Evaluation.ProcessExpression(System.String)
+  commentId: M:BOOSE.Evaluation.ProcessExpression(System.String)
+  parent: BOOSE.Evaluation
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ProcessExpression(string)
+  nameWithType: Evaluation.ProcessExpression(string)
+  fullName: BOOSE.Evaluation.ProcessExpression(string)
+  nameWithType.vb: Evaluation.ProcessExpression(String)
+  fullName.vb: BOOSE.Evaluation.ProcessExpression(String)
+  name.vb: ProcessExpression(String)
+  spec.csharp:
+  - uid: BOOSE.Evaluation.ProcessExpression(System.String)
+    name: ProcessExpression
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Evaluation.ProcessExpression(System.String)
+    name: ProcessExpression
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Evaluation.Expression
+  commentId: P:BOOSE.Evaluation.Expression
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Expression
+  nameWithType: Evaluation.Expression
+  fullName: BOOSE.Evaluation.Expression
+- uid: BOOSE.Evaluation.VarName
+  commentId: P:BOOSE.Evaluation.VarName
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: VarName
+  nameWithType: Evaluation.VarName
+  fullName: BOOSE.Evaluation.VarName
+- uid: BOOSE.Evaluation.Value
+  commentId: P:BOOSE.Evaluation.Value
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Value
+  nameWithType: Evaluation.Value
+  fullName: BOOSE.Evaluation.Value
+- uid: BOOSE.Evaluation.Local
+  commentId: P:BOOSE.Evaluation.Local
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Local
+  nameWithType: Evaluation.Local
+  fullName: BOOSE.Evaluation.Local
+- uid: BOOSE.Command.program
+  commentId: F:BOOSE.Command.program
+  parent: BOOSE.Command
+  isExternal: true
+  name: program
+  nameWithType: Command.program
+  fullName: BOOSE.Command.program
+- uid: BOOSE.Command.parameterList
+  commentId: F:BOOSE.Command.parameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameterList
+  nameWithType: Command.parameterList
+  fullName: BOOSE.Command.parameterList
+- uid: BOOSE.Command.parameters
+  commentId: F:BOOSE.Command.parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: parameters
+  nameWithType: Command.parameters
+  fullName: BOOSE.Command.parameters
+- uid: BOOSE.Command.paramsint
+  commentId: F:BOOSE.Command.paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: paramsint
+  nameWithType: Command.paramsint
+  fullName: BOOSE.Command.paramsint
+- uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  commentId: M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: Set(StoredProgram, string)
+  nameWithType: Command.Set(StoredProgram, string)
+  fullName: BOOSE.Command.Set(BOOSE.StoredProgram, string)
+  nameWithType.vb: Command.Set(StoredProgram, String)
+  fullName.vb: BOOSE.Command.Set(BOOSE.StoredProgram, String)
+  name.vb: Set(StoredProgram, String)
+  spec.csharp:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
+    name: Set
+    isExternal: true
+  - name: (
+  - uid: BOOSE.StoredProgram
+    name: StoredProgram
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Command.ProcessParameters(System.String)
+  commentId: M:BOOSE.Command.ProcessParameters(System.String)
+  parent: BOOSE.Command
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: ProcessParameters(string)
+  nameWithType: Command.ProcessParameters(string)
+  fullName: BOOSE.Command.ProcessParameters(string)
+  nameWithType.vb: Command.ProcessParameters(String)
+  fullName.vb: BOOSE.Command.ProcessParameters(String)
+  name.vb: ProcessParameters(String)
+  spec.csharp:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.ProcessParameters(System.String)
+    name: ProcessParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: BOOSE.Command.ToString
+  commentId: M:BOOSE.Command.ToString
+  parent: BOOSE.Command
+  isExternal: true
+  name: ToString()
+  nameWithType: Command.ToString()
+  fullName: BOOSE.Command.ToString()
+  spec.csharp:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Command.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: BOOSE.Command.Program
+  commentId: P:BOOSE.Command.Program
+  parent: BOOSE.Command
+  isExternal: true
+  name: Program
+  nameWithType: Command.Program
+  fullName: BOOSE.Command.Program
+- uid: BOOSE.Command.Name
+  commentId: P:BOOSE.Command.Name
+  parent: BOOSE.Command
+  isExternal: true
+  name: Name
+  nameWithType: Command.Name
+  fullName: BOOSE.Command.Name
+- uid: BOOSE.Command.ParameterList
+  commentId: P:BOOSE.Command.ParameterList
+  parent: BOOSE.Command
+  isExternal: true
+  name: ParameterList
+  nameWithType: Command.ParameterList
+  fullName: BOOSE.Command.ParameterList
+- uid: BOOSE.Command.Parameters
+  commentId: P:BOOSE.Command.Parameters
+  parent: BOOSE.Command
+  isExternal: true
+  name: Parameters
+  nameWithType: Command.Parameters
+  fullName: BOOSE.Command.Parameters
+- uid: BOOSE.Command.Paramsint
+  commentId: P:BOOSE.Command.Paramsint
+  parent: BOOSE.Command
+  isExternal: true
+  name: Paramsint
+  nameWithType: Command.Paramsint
+  fullName: BOOSE.Command.Paramsint
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Int32[,]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[,]
+  nameWithType: int[,]
+  fullName: int[,]
+  nameWithType.vb: Integer(,)
+  fullName.vb: Integer(,)
+  name.vb: Integer(,)
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ','
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: ','
+  - name: )
+- uid: System.Double[,]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double[,]
+  nameWithType: double[,]
+  fullName: double[,]
+  nameWithType.vb: Double(,)
+  fullName.vb: Double(,)
+  name.vb: Double(,)
+  spec.csharp:
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '['
+  - name: ','
+  - name: ']'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: (
+  - name: ','
+  - name: )
+- uid: ASE_Riya_Shah_77356825.ArrayApp.Rows*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.Rows
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_Rows
+  name: Rows
+  nameWithType: ArrayApp.Rows
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.Rows
+- uid: ASE_Riya_Shah_77356825.ArrayApp.Columns*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.Columns
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_Columns
+  name: Columns
+  nameWithType: ArrayApp.Columns
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.Columns
+- uid: ASE_Riya_Shah_77356825.ArrayApp
+  commentId: T:ASE_Riya_Shah_77356825.ArrayApp
+  parent: ASE_Riya_Shah_77356825
+  href: ASE_Riya_Shah_77356825.ArrayApp.html
+  name: ArrayApp
+  nameWithType: ArrayApp
+  fullName: ASE_Riya_Shah_77356825.ArrayApp
+- uid: ASE_Riya_Shah_77356825.ArrayApp.#ctor*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.#ctor
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp__ctor
+  name: ArrayApp
+  nameWithType: ArrayApp.ArrayApp
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ArrayApp
+  nameWithType.vb: ArrayApp.New
+  fullName.vb: ASE_Riya_Shah_77356825.ArrayApp.New
+  name.vb: New
+- uid: ASE_Riya_Shah_77356825.ArrayApp.ArrayRestrictions*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.ArrayRestrictions
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_ArrayRestrictions
+  name: ArrayRestrictions
+  nameWithType: ArrayApp.ArrayRestrictions
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ArrayRestrictions
+- uid: ASE_Riya_Shah_77356825.ArrayApp.ReduceRestrictionCounter*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.ReduceRestrictionCounter
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_ReduceRestrictionCounter
+  name: ReduceRestrictionCounter
+  nameWithType: ArrayApp.ReduceRestrictionCounter
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ReduceRestrictionCounter
+- uid: BOOSE.Evaluation.Compile
+  commentId: M:BOOSE.Evaluation.Compile
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Compile()
+  nameWithType: Evaluation.Compile()
+  fullName: BOOSE.Evaluation.Compile()
+  spec.csharp:
+  - uid: BOOSE.Evaluation.Compile
+    name: Compile
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Evaluation.Compile
+    name: Compile
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ASE_Riya_Shah_77356825.ArrayApp.Compile*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.Compile
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_Compile
+  name: Compile
+  nameWithType: ArrayApp.Compile
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.Compile
+- uid: BOOSE.Evaluation.CheckParameters(System.String[])
+  commentId: M:BOOSE.Evaluation.CheckParameters(System.String[])
+  parent: BOOSE.Evaluation
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: CheckParameters(string[])
+  nameWithType: Evaluation.CheckParameters(string[])
+  fullName: BOOSE.Evaluation.CheckParameters(string[])
+  nameWithType.vb: Evaluation.CheckParameters(String())
+  fullName.vb: BOOSE.Evaluation.CheckParameters(String())
+  name.vb: CheckParameters(String())
+  spec.csharp:
+  - uid: BOOSE.Evaluation.CheckParameters(System.String[])
+    name: CheckParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Evaluation.CheckParameters(System.String[])
+    name: CheckParameters
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: ASE_Riya_Shah_77356825.ArrayApp.CheckParameters*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.CheckParameters
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_CheckParameters_System_String___
+  name: CheckParameters
+  nameWithType: ArrayApp.CheckParameters
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.CheckParameters
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: BOOSE.Evaluation.Execute
+  commentId: M:BOOSE.Evaluation.Execute
+  parent: BOOSE.Evaluation
+  isExternal: true
+  name: Execute()
+  nameWithType: Evaluation.Execute()
+  fullName: BOOSE.Evaluation.Execute()
+  spec.csharp:
+  - uid: BOOSE.Evaluation.Execute
+    name: Execute
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Evaluation.Execute
+    name: Execute
+    isExternal: true
+  - name: (
+  - name: )
+- uid: ASE_Riya_Shah_77356825.ArrayApp.Execute*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.Execute
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_Execute
+  name: Execute
+  nameWithType: ArrayApp.Execute
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.Execute
+- uid: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersCompile*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersCompile
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_ProcessArrayParametersCompile_System_Boolean_
+  name: ProcessArrayParametersCompile
+  nameWithType: ArrayApp.ProcessArrayParametersCompile
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersCompile
+- uid: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersExecute*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersExecute
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_ProcessArrayParametersExecute_System_Boolean_
+  name: ProcessArrayParametersExecute
+  nameWithType: ArrayApp.ProcessArrayParametersExecute
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.ProcessArrayParametersExecute
+- uid: ASE_Riya_Shah_77356825.ArrayApp.SetIntArray*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.SetIntArray
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_SetIntArray_System_Int32_System_Int32_System_Int32_
+  name: SetIntArray
+  nameWithType: ArrayApp.SetIntArray
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.SetIntArray
+- uid: ASE_Riya_Shah_77356825.ArrayApp.SetRealArray*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.SetRealArray
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_SetRealArray_System_Double_System_Int32_System_Int32_
+  name: SetRealArray
+  nameWithType: ArrayApp.SetRealArray
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.SetRealArray
+- uid: ASE_Riya_Shah_77356825.ArrayApp.GetIntArray*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.GetIntArray
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_GetIntArray_System_Int32_System_Int32_
+  name: GetIntArray
+  nameWithType: ArrayApp.GetIntArray
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.GetIntArray
+- uid: ASE_Riya_Shah_77356825.ArrayApp.GetRealArray*
+  commentId: Overload:ASE_Riya_Shah_77356825.ArrayApp.GetRealArray
+  href: ASE_Riya_Shah_77356825.ArrayApp.html#ASE_Riya_Shah_77356825_ArrayApp_GetRealArray_System_Int32_System_Int32_
+  name: GetRealArray
+  nameWithType: ArrayApp.GetRealArray
+  fullName: ASE_Riya_Shah_77356825.ArrayApp.GetRealArray

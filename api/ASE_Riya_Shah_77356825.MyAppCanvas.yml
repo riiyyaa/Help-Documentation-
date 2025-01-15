@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Riya_Shah_77356825.MyAppCanvas
+  commentId: N:ASE_Riya_Shah_77356825.MyAppCanvas
+  id: ASE_Riya_Shah_77356825.MyAppCanvas
+  children:
+  - ASE_Riya_Shah_77356825.MyAppCanvas.MyAppPraser
+  - ASE_Riya_Shah_77356825.MyAppCanvas.MyCanvas
+  langs:
+  - csharp
+  - vb
+  name: ASE_Riya_Shah_77356825.MyAppCanvas
+  nameWithType: ASE_Riya_Shah_77356825.MyAppCanvas
+  fullName: ASE_Riya_Shah_77356825.MyAppCanvas
+  type: Namespace
+  assemblies:
+  - ASE_Riya_Shah_77356825
+references:
+- uid: ASE_Riya_Shah_77356825.MyAppCanvas.MyAppPraser
+  commentId: T:ASE_Riya_Shah_77356825.MyAppCanvas.MyAppPraser
+  href: ASE_Riya_Shah_77356825.MyAppCanvas.MyAppPraser.html
+  name: MyAppPraser
+  nameWithType: MyAppPraser
+  fullName: ASE_Riya_Shah_77356825.MyAppCanvas.MyAppPraser
+- uid: ASE_Riya_Shah_77356825.MyAppCanvas.MyCanvas
+  commentId: T:ASE_Riya_Shah_77356825.MyAppCanvas.MyCanvas
+  href: ASE_Riya_Shah_77356825.MyAppCanvas.MyCanvas.html
+  name: MyCanvas
+  nameWithType: MyCanvas
+  fullName: ASE_Riya_Shah_77356825.MyAppCanvas.MyCanvas
